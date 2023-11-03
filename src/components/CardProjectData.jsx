@@ -1,33 +1,42 @@
-import ProUno from "../img/e3.jpg";
-import ProDos from "../img/ruben.jpg";
-//import ProTres from "../img/alitass.jpg";
+import eco from "../img/eco.png";
+import noticias from "../img/noticias.png";
+import polleria from "../img/polleria.png";
+import videoEco from "../img/EcoEcho.mp4";
+import videoEconomia from "../img/Economia.mp4";
+import videoPolleria from "../img/Polleria.mp4";
 
-const ProjectCardData = [
+const CardProjectData = [
     {
         id: 1,
-        imgsrc: [ProUno, ProDos],
-        title: "E-Commerce: Productos ecologicos",
-        text: "Página principal de inicio con el nombre de lamarca, barra de navegación con productos yun sub-menu de los productos divididos porcategorias, cada producto cuenta coninformación del mismo.",
-        view: "Ver casa",
-        source: "",
-        video: "../img/EcoEcho - Google Chrome 2023-11-02 19-01-17.mp4"
+        imgsrc: eco,
+        title: "E-commerce: Organic products",
+        text: "Main home page with the brand name,navigation bar with products and a submenuof products divided by categories, eachproduct has information about it.",
+        deploy: "https://productos-ecologicos.vercel.app/",
+        git: "https://github.com/Nahueabasto/Productos---Ecologicos",
+        video: videoEco,
+        deploy: "https://productos-ecologicos.vercel.app/",
+        technological: "JavaScript, React, NodeJS, PostgresSQL, Express, Sequelize, Bootstrap, Git, GitHub, CSS, Trello.",
       },
       {
         id: 2,
-        imgsrc: [ProDos],
-        title: "Polleria Olivia",
-        text: "Este proyecto lo hice para una polleria, en donde el cliente puede encontrar el contacto y los diferentes productos que comercializan.",
-        view: "Ver casa",
-        source: "",
+        imgsrc: polleria,
+        title: "Olivia Chicken Shop",
+        text: "I did this project for a chicken shop, wherethe client can find the contact and thedifferent products they sell.",
+        git: "https://github.com/Nahueabasto/Polleria-Olivia",
+        video: videoPolleria,
+        deploy: "https://polleria-olivia.vercel.app/",
+        technological: "JavaScript, React, Git, CSS.",
       },
     {
     id: 3,
-    imgsrc: [ProDos],
-    title: "Noticias financieras",
-    text: "Este proyecto lo hice meramente autodidacta, en donde a partir de solicitudes a una API, nos permite traer el precio del dolar, euro y de direferentes criptomonedas.",
-    view: "",
-    source: "",
+    imgsrc: noticias,
+    title: "Financial news",
+    text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
+    git: "https://github.com/Nahueabasto/Economia",
+    video: videoEconomia,
+    deploy: "https://economia-theta.vercel.app/",
+    technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
   },
 ];
 
-export default ProjectCardData;
+export default CardProjectData;

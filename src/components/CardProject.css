@@ -1,0 +1,75 @@
+.project-heading {
+    text-align: center;
+    padding: 7rem 0 2rem 0;
+  }
+  
+  .project-container {
+    max-width: 1040px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 70px;
+    padding-bottom: 5rem;
+
+  }
+  
+  .project-card {
+    background: #444;
+    padding: 1rem 1rem;
+    /* border: white solid 2px; */
+    border-radius: 5px;
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    text-align: center;
+    margin: 0 auto;
+    transition: opacity 0.3s; /* Add a smooth transition for the opacity change */
+    opacity: 1;
+    /* Add other styles as needed */
+  }
+  
+  .project-card:hover {
+    /* Define the styles for the card when hovered over */
+    opacity: 0.8; /* Reduce the opacity to make it appear transparent */
+    /* You can also change other styles like background color on hover */
+  }
+  
+  .project-card img {
+    width: 100%;
+  }
+  
+  .project-title {
+    color: azure;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pro-details p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  
+  .pro-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+  }
+  
+  .pro-btns .btn-2 {
+    padding: 0.5rem 1rem;
+  }
+  
+  .car-contenedor {
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    background-color: darkslateblue;
+  }
+  
+  @media screen and (max-width: 740px) {
+    .project-container {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }

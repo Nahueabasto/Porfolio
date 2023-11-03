@@ -1,16 +1,16 @@
 import React from "react";
 import Card from "./Card";
-import ProductCardData from "./ProductCardData";
-import "./CardProduct.css";
+import CardProjectData from "./CardProjectData";
+import "./CardProject.css";
 
 
 const CardProject = () => {
   return (
     <div className="CardProduct-container">
-      <h1 className="project-heading">MY PROJECTS</h1>
-      <p className="project-p">Alquiler temporario de casas amoblados y equipados para una confortable estadía en la ciudad de Tanti Córdoba.</p>
+      <h2 className="project-heading">MY PROJECTS</h2>
+      {/* <p className="project-p">Alquiler temporario de casas amoblados y equipados para una confortable estadía en la ciudad de Tanti Córdoba.</p> */}
       <div className="project-container">
-        {ProductCardData.map((val, ind) => {
+        {CardProjectData.map((val, ind) => {
           return (
             <Card
               id={val.id}

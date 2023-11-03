@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import CardProject from "../components/CardProject";
+import Detalle from "../components/Detalle";
 import Footer from "../components/Footer";
 
-export default function Projects(){
+export default function DetallePage(){
     return(
         <div>
         <Navbar/>
-        <CardProject/>
+        <Detalle/>
         <Footer/>
         </div>
     )

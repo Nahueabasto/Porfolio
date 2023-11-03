@@ -1,0 +1,100 @@
+.detalle-f{
+    padding: 120px;
+    
+    margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */ /* usar para el about */
+    grid-gap: 40px; /* Espacio entre tarjetas */
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    text-align: center;
+}
+
+.titleee{
+    text-align: left;
+    
+}
+
+.contenedor-detalleg {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
+    grid-gap: 100px; /* Espacio entre las columnas */
+  }
+  
+  /* Estilo para el primer div en la primera columna */
+  .contenedor-detalleg > div:nth-child(1) {
+    grid-column: 1; /* Coloca en la primera columna */
+  }
+  
+  /* Estilo para el segundo div en la segunda columna */
+  .contenedor-detalleg > div:nth-child(2) {
+    grid-column: 2; /* Coloca en la segunda columna */
+  }
+
+  .columna-1 {
+    text-align: left;
+    
+  }
+
+  .columna-2 {
+    text-align: left;
+  }
+  
+  .columna-1 h2 {
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px entre el h2 y el párrafo */
+  }
+  
+  .columna-1 .overview-text {
+    margin-top: 10px; /* Agrega un margen superior de 10px al párrafo */
+  }
+
+  .columna-2 p {
+    margin-bottom: 15px; /* Agrega un margen inferior de 10px entre los párrafos */
+  }
+  
+  .columna-2 .location {
+    margin-top: 15px; /* Agrega un margen superior de 10px entre el párrafo y el enlace */
+  }
+
+  .location {
+    display: flex;
+    align-items: center; /* Centrar verticalmente los elementos */
+  }
+  
+  .location a {
+    text-decoration: none; /* Eliminar subrayado del enlace */
+  }
+  
+
+.contenedor-video {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    border: solid #333 2px;
+    box-shadow: 0px 1px 5px rgb(128, 125, 125);
+  }
+
+  
+  @media screen and (max-width: 1100px) {
+    .contenedor-detalleg {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Esto centrará horizontalmente */
+  grid-gap: 30px;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    /* .detalle-f{
+      width: 100%;
+        } */
+    .video{
+        width: 350px;
+        height: 250px; 
+  }
+  }
