@@ -5,19 +5,32 @@
   }
   
   .footer-container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
   }
+
+  .right{
+    margin-left: 20px;
+  }
   
   .left {
-    height: 100%;
-    max-width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    align-items: center; 
+    align-items: flex-start;
+    text-align: center;
+    margin-left: 20px;
     padding: 1rem;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row; /* Establece la dirección de fila para los iconos */
+    justify-content: center; /* Alinea los iconos al centro horizontalmente */
+    margin-top: 5px; /* Ajusta el margen superior según sea necesario */
   }
   
   .location {

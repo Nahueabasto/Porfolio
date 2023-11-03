@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
-//Estilos
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -29,17 +29,17 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/proyectos">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/acerca_de_mi">About</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
       <div className="hamburguer" onClick={handleClick}>
         {click ? (
-          <FaTimes size={30} style={{ color: "#fff" }} />
+          <CloseIcon size={30} style={{ color: "#fff" }} />
         ) : (
-          <FaBars size={30} style={{ color: "#fff" }} />
+          <MenuIcon size={30} style={{ color: "#fff" }} />
         )}
       </div>
     </div>
