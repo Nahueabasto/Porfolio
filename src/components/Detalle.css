@@ -1,5 +1,5 @@
 .detalle-f{
-    padding: 120px;
+    padding: 130px;
     
     margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
     display: grid;
@@ -71,7 +71,7 @@
   }
   
   .video {
-   
+    margin-bottom: -50px;
     width: 100%;
     border: solid #333 2px;
     box-shadow: 0px 1px 5px rgb(128, 125, 125);
