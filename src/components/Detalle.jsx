@@ -49,7 +49,6 @@ const Detalle = () => {
   </div>
 </div>
       
-
       {project.video && (
         <div>
           <video controls className="video">
