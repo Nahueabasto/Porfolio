@@ -9,22 +9,22 @@ const NavbarAlt = () => {
   const handleClick = () => setClick(!click);
 
   const [color, setColor] = useState(false);
-//   const changeColor = () => {
-//     if (window.scrollY >= 100) {
-//       setColor(true);
-//     } else {
-//       setColor(false);
-//     }
-//   };
+  // const changeColor = () => {
+  //   if (window.scrollY >= 100) {
+  //     setColor(true);
+  //   } else {
+  //     setColor(false);
+  //   }
+  // };
 
-//   window.addEventListener("scroll", changeColor);
+  // window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div className={color ? "heade heade-bg" : "heade"}>
       <Link to="/">
         <h1>My Portfolio</h1>
       </Link>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul className={click ? "na-menu active" : "na-menu"}>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -35,7 +35,7 @@ const NavbarAlt = () => {
           <Link to="/about">About</Link>
         </li>
       </ul>
-      <div className="hamburguer" onClick={handleClick}>
+      <div className="hamburgue" onClick={handleClick}>
         {click ? (
           <CloseIcon size={30} style={{ color: "#fff" }} />
         ) : (

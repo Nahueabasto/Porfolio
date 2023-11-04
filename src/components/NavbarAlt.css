@@ -1,0 +1,118 @@
+.heade{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed; /* para que el navbar siga cuando bajamos en la pagina */
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.85);
+    /* opacity: 0.9; */
+    /* background-color: #d6d2d2;
+    position: absolute; */
+}
+
+/* .heade-bg {
+    background-color: #d6d2d2;
+    transition: 0.5s;
+  } */
+
+  /* .logo-h1 {
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+    margin-left: 10%;
+  } */
+
+  .text-nav:hover {
+    color:#f07807; /* Cambia el color del texto a naranja en el estado de hover */
+  }
+
+/* .logoeco{
+    padding: 10px;
+    flex: 1;
+    border-radius: 50%;
+    max-width: 100%;
+    
+} */
+
+/* .text-nav{
+  text-decoration: none; 
+    align-items: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    
+} */
+
+.na-menu {
+    display: flex;
+  }
+
+
+  .na-menu li {
+    padding: 0 1rem;
+  }
+
+  
+  .na-menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .na-menu li a:hover {
+    color:#CCCCCC; /* Cambia el color del texto a naranja en el estado de hover */
+  }
+  
+  .hamburgue {
+    display: none;
+  }
+
+  @media screen and (max-width: 950px) { /* 800px para cuando empieza a activarse el nav manu */
+    .na-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: #333333;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+     
+    }
+
+  
+    .na-menu.active {
+        left: 0;
+      }
+    
+    .na-menu li {
+        padding: 0.5rem 0;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: 30px;
+}
+
+/* .na-menu li a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: none; 
+  transition: color 0.3s; 
+} */
+
+.na-menu li a:hover {
+  color:#CCCCCC; /* Cambia el color del texto a naranja en el estado de hover */
+}
+
+      /* .active{
+        color: aqua;
+      } */
+    
+      .hamburgue {
+        display: initial;
+      }
+    }

@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import NavbarAlt from "../components/NavbarAlt";
 
 import Footer from "../components/Footer";
 
 export default function About(){
     return(
         <div>
-        <Navbar/>
+        <NavbarAlt/>
        
         <Footer/>
         </div>

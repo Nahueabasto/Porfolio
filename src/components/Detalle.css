@@ -1,6 +1,6 @@
 .detalle-f{
-    padding: 130px;
-    
+    padding: 10rem 100px 10rem 100px;
+    /* padding: 130px; */
     margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */ /* usar para el about */
@@ -10,8 +10,7 @@
 }
 
 .titleee{
-    text-align: left;
-    
+    text-align: left; 
 }
 
 .contenedor-detalleg {
@@ -87,7 +86,7 @@
     }
 
     .video{
-        margin-bottom: -50px;
+        margin-bottom: -80px;
     }
 
   }
