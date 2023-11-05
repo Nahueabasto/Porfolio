@@ -1,13 +1,13 @@
 import React from "react";
 import NavbarAlt from "../components/NavbarAlt";
-
+import Info from "../components/Info";
 import Footer from "../components/Footer";
 
 export default function About(){
     return(
         <div>
         <NavbarAlt/>
-       
+        <Info/>
         <Footer/>
         </div>
     )

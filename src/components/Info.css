@@ -1,0 +1,57 @@
+.info{
+    padding: 10rem 100px 10rem 100px;
+    /* padding: 130px; */
+    margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */ /* usar para el about */
+    grid-gap: 40px; /* Espacio entre tarjetas */
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    text-align: center;
+}
+
+.contenedor-detallee {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
+    grid-gap: 100px; /* Espacio entre las columnas */
+  }
+
+  .colum-1 {
+    text-align: left;
+    
+  }
+
+  .colum-2 {
+    text-align: left;
+    
+  }
+
+  .colum-1 h2 {
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px entre el h2 y el párrafo */
+  }
+
+  .colum-1 .overview-tex {
+    margin-top: 10px; /* Agrega un margen superior de 10px al párrafo */
+  }
+
+  .colum-2 h2 {
+    margin-bottom: 15px; /* Agrega un margen inferior de 10px entre los párrafos */
+  }
+
+  .cv-contenedor {
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -60px;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .contenedor-detallee {
+        padding: 0rem 100px 0rem 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Esto centrará horizontalmente */
+  grid-gap: 30px;
+  
+    }
+
+}

@@ -26,6 +26,10 @@
     font-size: 1.2rem;
     font-weight: 500;
   }
+
+  .nav-menu li a:hover {
+    color:#CCCCCC; /* Cambia el color del texto a naranja en el estado de hover */
+  }
   
   .hamburguer {
     display: none;
