@@ -4,7 +4,7 @@ import "./Info.css";
 
 const Info = () => {
   return (
-    <div className="info">
+    
         <div className="contenedor-detallee">
         <div className="colum-1">
             <h2>About:</h2>
@@ -12,11 +12,8 @@ const Info = () => {
         </div>
         <div className="colum-2">
             <h2>Technologies:</h2>
-            <p>HTML | CSS | JavaScript | React |ReduxJS | SCRUM | ReactJS | NodeJS |PostgresSQL Express | Sequelize |Bootstrap | GitHub | Trello</p>
+            <p>HTML | CSS | JavaScript | React | ReduxJS | SCRUM | ReactJS | NodeJS | PostgresSQL | Express | Sequelize | Bootstrap | GitHub | Trello.</p>
         </div>
-        
-        </div>
-   
      </div>
   );
 };

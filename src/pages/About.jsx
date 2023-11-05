@@ -10,7 +10,7 @@ export default function About(){
         <div>
         <NavbarAlt/>
         <Info/>
-        <div>
+        <div className="cv">
         <h2>CURRICULUM VITAE.</h2>
         </div> 
         <div className="cv-contenedor">

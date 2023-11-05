@@ -1,5 +1,5 @@
-.info{
-    padding: 10rem 100px 10rem 100px;
+.contenedor-detallee {
+  padding: 10rem 65px 10rem 65px;
     /* padding: 130px; */
     margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
     display: grid;
@@ -7,12 +7,10 @@
     grid-gap: 40px; /* Espacio entre tarjetas */
     justify-content: center; /* Centrar las columnas horizontalmente */
     text-align: center;
-}
-
-.contenedor-detallee {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
     grid-gap: 100px; /* Espacio entre las columnas */
+    margin-bottom: -85px;
   }
 
   .colum-1 {
@@ -44,13 +42,19 @@
     margin-bottom: 50px;
   }
 
+  .cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   @media screen and (max-width: 1100px) {
     .contenedor-detallee {
       display: flex;
       flex-direction: column;
       align-items: center; /* Esto centrará horizontalmente */
       grid-gap: 30px;
-  
+      
     }
 
 }
