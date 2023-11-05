@@ -14,13 +14,10 @@ const Info = () => {
             <h2>Technologies:</h2>
             <p>HTML | CSS | JavaScript | React |ReduxJS | SCRUM | ReactJS | NodeJS |PostgresSQL Express | Sequelize |Bootstrap | GitHub | Trello</p>
         </div>
+        
         </div>
-
-        <div className="cv-contenedor">
-            <h2>CV</h2>
-            <embed src={MICV} width="600" height="850" type="application/pdf" />
-        </div>
-    </div>
+   
+     </div>
   );
 };
 
