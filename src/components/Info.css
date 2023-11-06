@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
     grid-gap: 100px; /* Espacio entre las columnas */
-    margin-bottom: -85px;
+    margin-bottom: -100px;
   }
 
   .colum-1 {

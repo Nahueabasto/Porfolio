@@ -37,6 +37,16 @@ const CardProjectData = [
     deploy: "https://economia-theta.vercel.app/",
     technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
   },
+  // {
+  //   id: 4,
+  //   imgsrc: noticias,
+  //   title: "Financial news",
+  //   text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
+  //   git: "https://github.com/Nahueabasto/Economia",
+  //   video: videoEconomia,
+  //   deploy: "https://economia-theta.vercel.app/",
+  //   technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
+  // },
 ];
 
 export default CardProjectData;
