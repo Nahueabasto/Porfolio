@@ -25,8 +25,8 @@
 
     @media screen and (max-width: 1100px) {
         .logo{
-            width: 9%; /* El 100% de ancho para que ocupe toda la columna en dispositivos con un ancho máximo de 1000px */
+            width: 10%; /* El 100% de ancho para que ocupe toda la columna en dispositivos con un ancho máximo de 1000px */
         max-width: 80px; /* Establecemos un tamaño máximo para evitar que sean demasiado grandes */
-        margin: 0 10px; /* Espacio entre los logotipos en columna */
+        margin: 0 5px; /* Espacio entre los logotipos en columna */
         }
     }
