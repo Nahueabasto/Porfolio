@@ -1,5 +1,4 @@
 import React from "react";
-import MICV from "../img/cv.nahuel-in.pdf";
 import "./Info.css";
 
 const Info = () => {
@@ -12,7 +11,7 @@ const Info = () => {
         </div>
         <div className="colum-2">
             <h2>Technologies:</h2>
-            <p>HTML | CSS | JavaScript | React | ReduxJS | SCRUM | ReactJS | NodeJS | PostgresSQL | Express | Sequelize | Bootstrap | GitHub | Trello.</p>
+            <p>HTML | CSS | JavaScript | React | React-Vite | ReduxJS | SCRUM | ReactJS | NodeJS | PostgresSQL | Express | Sequelize | MongoDB | Tailwind CSS | Bootstrap | GitHub | Trello.</p>
         </div>
      </div>
   );
