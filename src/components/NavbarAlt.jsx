@@ -22,7 +22,7 @@ const NavbarAlt = () => {
   return (
     <div className={color ? "heade heade-bg" : "heade"}>
       <Link to="/">
-        <h1>Mi Porfolio</h1>
+        <h1>Mi porfolio</h1>
       </Link>
       <ul className={click ? "na-menu active" : "na-menu"}>
         <li>
