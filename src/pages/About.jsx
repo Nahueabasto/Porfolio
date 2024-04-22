@@ -17,7 +17,7 @@ export default function About(){
         <div>
         <NavbarAlt/>
         <Info/>
-        <Logo/>
+        {/* <Logo/> */}
         <div className="cv">
         <h2>CURRICULUM VITAE.</h2>
         </div> 

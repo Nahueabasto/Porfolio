@@ -29,7 +29,7 @@ const NavbarAlt = () => {
           <Link to="/">Inicio</Link>
         </li>
         <li>
-          <Link to="/projects">Projectos</Link>
+          <Link to="/projects">Proyectos</Link>
         </li>
         <li>
           <Link to="/about">Sobre mi</Link>
