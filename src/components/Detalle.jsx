@@ -24,11 +24,11 @@ const Detalle = () => {
 
       <div className='contenedor-detalleg'>
   <div className="columna-1">
-    <h2>Project Overview</h2>
+    <h2>Descripción del proyecto:</h2>
     <p className="overview-text">{project.text}</p>
   </div>
   <div className="columna-2">
-    <p>Technologies used: {project.technological}</p>
+    <p>Tecnologias usadas: {project.technological}</p>
     <p>Deploy: <a href={project.deploy} target="_blank" rel="noopener noreferrer">
       {project.deploy}
     </a></p>

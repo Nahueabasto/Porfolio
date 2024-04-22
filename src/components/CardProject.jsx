@@ -7,7 +7,7 @@ import "./CardProject.css";
 const CardProject = () => {
   return (
     <div className="CardProduct-container">
-      <h2 className="project-heading">MY PROJECTS</h2>
+      <h2 className="project-heading">Mis proyectos</h2>
       {/* <p className="project-p">Alquiler temporario de casas amoblados y equipados para una confortable estadía en la ciudad de Tanti Córdoba.</p> */}
       <div className="project-container">
         {CardProjectData.map((val, ind) => {
