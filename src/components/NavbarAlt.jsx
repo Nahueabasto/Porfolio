@@ -22,17 +22,17 @@ const NavbarAlt = () => {
   return (
     <div className={color ? "heade heade-bg" : "heade"}>
       <Link to="/">
-        <h1>My Portfolio</h1>
+        <h1>Mi Porfolio</h1>
       </Link>
       <ul className={click ? "na-menu active" : "na-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Inicio</Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects">Projectos</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">Sobre mi</Link>
         </li>
       </ul>
       <div className="hamburgue" onClick={handleClick}>

@@ -12,15 +12,14 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
       <div className="right">
-          <h4>About</h4>
+          <h4>Sobre mi</h4>
           <p>
-          I am a Full Stack Web Developer. I love creating engaging experiences, not only visually but also functionally. Another quality that characterizes me is curiosity. I am always learning new things. In programming, I found my passion.
+          Soy un desarrollador web Full Stack. Me encanta crear experiencias atractivas, no sólo visualmente sino también funcionalmente. Otra cualidad que me caracteriza es la curiosidad. Siempre estoy aprendiendo cosas nuevas. En la programación encontré mi pasión.
           </p>
         </div>
 
         <div className="left">
-  <h4>Contact</h4>
-  
+  <h4>Contacto</h4>
   <div className="icons">
     <a
       href="https://github.com/Nahueabasto"
