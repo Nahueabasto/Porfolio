@@ -20,8 +20,8 @@ const Footer = () => {
 
         <div className="left">
   <h4>Contact</h4>
+  
   <div className="icons">
-
     <a
       href="https://github.com/Nahueabasto"
       target="_blank" // Esto abre el enlace en una nueva pestaña o ventana

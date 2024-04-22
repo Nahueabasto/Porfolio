@@ -13,14 +13,6 @@ const Slider = () => {
       <div className="content">
         <h1>Full Stack Developer</h1>
         <p>NAHUEL ABASTO</p>
-        {/* <div>
-          <Link to="/proyectos" className="btn">
-            PROYECTOS
-          </Link>
-          <Link to="/contacto" className="btn btn-light">
-            MI CURRICULUM
-          </Link>
-        </div> */}
       </div>
     </div>
   );
