@@ -12,7 +12,7 @@ const Info = () => {
         <div className="colum-2">
             <h2>Educacion:</h2>
             <p>- Full stack developer</p>
-            <p>- Tecnico en administracion de empresas</p>
+            <p>- Tecnico en administración de empresas</p>
         </div>
         {/* <div className="colum-2">
             <h2>Tecnologias:</h2>
