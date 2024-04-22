@@ -22,7 +22,7 @@ const Detalle = () => {
         <h1>{project.title}</h1>
       </div>
 
-      <div className='contenedor-detalleg'>
+  <div className='contenedor-detalleg'>
   <div className="columna-1">
     <h2>Descripción del proyecto:</h2>
     <p className="overview-text">{project.text}</p>

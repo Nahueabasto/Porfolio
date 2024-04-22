@@ -54,6 +54,10 @@
     margin-top: 15px; /* Agrega un margen superior de 10px entre el párrafo y el enlace */
   }
 
+  a:hover {
+    color: #CCCCCC; /* Color al pasar el cursor */
+}
+
   .location {
     display: flex;
     align-items: center; /* Centrar verticalmente los elementos */
