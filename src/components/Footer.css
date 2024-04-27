@@ -42,16 +42,6 @@
     line-height: 30px;
   }
   
-  .location p:hover {
-    color: lightgreen;
-    transition: all 0.2s ease;
-  }
-  
-  .mui:hover {
-    color: lightgreen;
-    transition: all 0.2s ease;
-  }
-  
   .right {
     height: 100%;
     max-width: 100%;
@@ -65,13 +55,12 @@
     padding-bottom: 0.7rem;
   }
   
-  .h4:hover {
-    color: lightgreen;
-    transition: all 0.2s ease;
-  }
-  
   p {
     font-size: 1.1rem;
+  }
+
+  .location:hover {
+    color: green;
   }
   
   @media screen and (max-width: 505px) {

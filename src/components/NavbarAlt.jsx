@@ -26,13 +26,13 @@ const NavbarAlt = () => {
       </Link>
       <ul className={click ? "na-menu active" : "na-menu"}>
         <li>
-          <Link to="/">Inicio</Link>
+          <Link to="/" onClick={handleClick}>Inicio</Link>
         </li>
         <li>
-          <Link to="/projects">Proyectos</Link>
+          <Link to="/projects" onClick={handleClick}>Proyectos</Link>
         </li>
         <li>
-          <Link to="/about">Sobre mi</Link>
+          <Link to="/about" onClick={handleClick}>Sobre mi</Link>
         </li>
       </ul>
       <div className="hamburgue" onClick={handleClick}>
