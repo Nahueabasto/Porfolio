@@ -59,8 +59,8 @@
     font-size: 1.1rem;
   }
 
-  .location:hover {
-    color: green;
+  a:hover {
+    color: #00ca22;
   }
   
   @media screen and (max-width: 505px) {

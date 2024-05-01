@@ -29,7 +29,7 @@ const Footer = () => {
     <div className="location">
       <GitHubIcon
         size={20}
-        style={{ color: "#fff", fontSize: "1.8rem", marginRight: "1rem" }}
+        style={{ color: "", fontSize: "1.8rem", marginRight: "1rem" }}
       />
     </div>
   </a>
@@ -41,7 +41,7 @@ const Footer = () => {
     <div className="location">
         <LinkedInIcon
           size={20}
-          style={{ color: "#fff", fontSize: "1.8rem", marginRight: "1rem" }}
+          style={{ color: "", fontSize: "1.8rem", marginRight: "1rem" }}
         />
     </div>
   </a>
@@ -53,7 +53,7 @@ const Footer = () => {
     <div className="location">
         <EmailIcon
           size={20}
-          style={{ color: "#fff", fontSize: "1.8rem", marginRight: "1rem" }}
+          style={{ color: "", fontSize: "1.8rem", marginRight: "1rem" }}
         />
     </div>
   </a>
