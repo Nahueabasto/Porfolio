@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="right">
           <h4>Sobre mi</h4>
           <p>
-          Soy un desarrollador web Full Stack apasionado por crear experiencias atractivas, no solo desde el aspecto visual, sino también a nivel funcional. Además de la programación, tengo experiencia en edición de video, lo que me permite ofrecer un enfoque más completo en la creación de contenidos digitales. Mi curiosidad me caracteriza, siempre estoy aprendiendo y explorando nuevas tecnologías. En la programación encontré mi verdadera pasión, pero no me detengo ahí: la creatividad fluye en cada proyecto que emprendo.
+          Soy un desarrollador web Full Stack apasionado por crear experiencias atractivas, no solo desde el aspecto visual, sino también a nivel funcional. Además de la programación, tengo experiencia en edición de video, lo que me permite ofrecer un enfoque más completo en la creación de contenidos digitales. Mi curiosidad me caracteriza, siempre estoy aprendiendo y explorando nuevas tecnologías.
           </p>
         </div>
 

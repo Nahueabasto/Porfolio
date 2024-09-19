@@ -7,7 +7,7 @@ const Info = () => {
         <div className="contenedor-detallee">
         <div className="colum-1">
             <h2>Sobre mi:</h2>
-            <p className="overview-tex">Soy un desarrollador web Full Stack apasionado por crear experiencias atractivas, no solo desde el aspecto visual, sino también a nivel funcional. Además de la programación, tengo experiencia en edición de video, lo que me permite ofrecer un enfoque más completo en la creación de contenidos digitales. Mi curiosidad me caracteriza, siempre estoy aprendiendo y explorando nuevas tecnologías. En la programación encontré mi verdadera pasión, pero no me detengo ahí: la creatividad fluye en cada proyecto que emprendo.</p>
+            <p className="overview-tex">Soy un desarrollador web Full Stack apasionado por crear experiencias atractivas, no solo desde el aspecto visual, sino también a nivel funcional. Además de la programación, tengo experiencia en edición de video, lo que me permite ofrecer un enfoque más completo en la creación de contenidos digitales. Mi curiosidad me caracteriza, siempre estoy aprendiendo y explorando nuevas tecnologías.</p>
         </div>
         <div className="colum-2">
             <h2>Educacion:</h2>
