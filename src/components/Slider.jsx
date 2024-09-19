@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-//Estilos
 import "./Slider.css";
 import Imagen from "../img/react.png";
 

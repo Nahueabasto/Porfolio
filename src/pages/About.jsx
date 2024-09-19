@@ -3,7 +3,6 @@ import NavbarAlt from "../components/NavbarAlt";
 import Info from "../components/Info";
 import MICV from "../img/Curriculum.pdf"
 import Footer from "../components/Footer";
-import Logo from "../components/Logo";
 import "../components/Info.css"
 
 export default function About(){
