@@ -12,7 +12,7 @@ const Info = () => {
         <div className="colum-2">
             <h2>Educacion:</h2>
             <p>- Full stack developer</p>
-            <p>- Editor de video - <a href="https://www.youtube.com/channel/UC_tucWpum9rVEz8f2uNqzVA" target="_blank" style={{ color: '#00aaff', textDecoration: 'none' }}
+            <p>- Editor de video - <a href="https://www.youtube.com/@Neuro.Conciencia" target="_blank" style={{ color: '#00aaff', textDecoration: 'none' }}
   >
     Nauro Conciencia
   </a></p>
