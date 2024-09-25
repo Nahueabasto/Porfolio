@@ -56,8 +56,9 @@
     align-items: center;
   }
 
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1234px) {
     .contenedor-detallee {
+      padding: 8rem 20px 10rem 20px;
       display: flex;
       flex-direction: column;
       grid-gap: 30px;
@@ -70,3 +71,4 @@
     }
 
 }
+
