@@ -20,6 +20,7 @@ const CardProject = () => {
               text={val.text}
               view={val.view}
               source={val.source}
+              deploy={val.deploy}
             />
           );
         })}

@@ -4,6 +4,8 @@ import polleria from "../img/polleria.png";
 import videoEco from "../img/EcoEcho.mp4";
 import videoEconomia from "../img/Economia.mp4";
 import videoPolleria from "../img/Polleria.mp4";
+import nes from "../img/nes.png";
+import pastas from "../img/p.png";
 
 const CardProjectData = [
     {
@@ -37,16 +39,26 @@ const CardProjectData = [
     deploy: "https://economia-theta.vercel.app/",
     technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
   },
-  // {
-  //   id: 4,
-  //   imgsrc: noticias,
-  //   title: "Financial news",
-  //   text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
-  //   git: "https://github.com/Nahueabasto/Economia",
-  //   video: videoEconomia,
-  //   deploy: "https://economia-theta.vercel.app/",
-  //   technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
-  // },
+  {
+    id: 4,
+    imgsrc: nes,
+    title: "News Argentina",
+    text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
+    git: "https://github.com/Nahueabasto/Economia",
+    video: videoEconomia,
+    deploy: "https://digital4.vercel.app/",
+    technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
+  },
+  {
+    id: 5,
+    imgsrc: pastas,
+    title: "News Argentina",
+    text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
+    git: "https://github.com/Nahueabasto/Economia",
+    video: videoEconomia,
+    deploy: "https://listadepreciosali-mi-nahueabastos-projects.vercel.app/",
+    technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
+  },
 ];
 
 export default CardProjectData;

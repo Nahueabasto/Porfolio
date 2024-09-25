@@ -1,30 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
-//Estilos
+// Estilos
 import "./Card.css";
 
 const Card = (props) => {
     return (
       <div className="project-card">
-        <Link to={`/project/${props.id}`} style={{ textDecoration: "none" }}>
+        {/* Usar un enlace <a> con target="_blank" para abrir en una nueva pestaña */}
+        <a href={props.deploy} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
           <img src={props.imgsrc} alt="imagen" />
           <h3 className="project-title">{props.title}</h3>
           <div className="pro-details">
-            {/* <div>
-              <button className="secondary-button">
-                {props.view}
-              </button>
-            </div> */}
             <div className="pro-btns">
-              {/* <a href={props.view} className="btn">
-                VER
-              </a> */}
+              {/* Puedes agregar más botones o contenido aquí */}
             </div>
           </div>
-        </Link>
+        </a>
       </div>
     );
   };
 
 export default Card;
-
