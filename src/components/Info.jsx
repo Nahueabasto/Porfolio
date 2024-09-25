@@ -11,15 +11,30 @@ const Info = () => {
             <p className="">Soy un desarrollador web Full Stack apasionado por crear experiencias atractivas, no solo desde el aspecto visual, sino también a nivel funcional. Además de la programación, tengo experiencia en edición de video, lo que me permite ofrecer un enfoque más completo en la creación de contenidos digitales. Mi curiosidad me caracteriza, siempre estoy aprendiendo y explorando nuevas tecnologías.</p>
         </div>
         <div className="colum-2">
-            <h2>Educacion:</h2>
-            <p>- Full stack developer</p>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-  <p style={{ margin: 0, color: '#fff', fontSize: '16px' }}>- Editor de videos</p>
-  <YouTubeIcon size={30} style={{ color: '#FF0000' }} />
-  <a href="https://www.youtube.com/@Neuro.Conciencia" target="_blank" rel="noopener noreferrer" style={{ color: '#00aaff', textDecoration: 'none', fontSize: '16px', lineHeight: '30px' }}>
-    Nauro Conciencia
-  </a>
-</div>
+  <h2>Educacion:</h2>
+  <p>- Full stack developer</p>
+  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+    <p style={{ margin: 0, color: '#fff', fontSize: '16px' }}>- Editor de videos</p>
+    <div style={{ 
+      backgroundColor: '#fff', 
+      borderRadius: '50%', 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'center', 
+      width: '13px',  // Ajustar el ancho
+      height: '13px'  // Ajustar la altura
+    }}>
+      <YouTubeIcon size={24} style={{ color: '#FF0000' }} /> {/* Ajusta el tamaño aquí si es necesario */}
+    </div>
+    <a 
+      href="https://www.youtube.com/@Neuro.Conciencia" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      style={{ color: '#00aaff', textDecoration: 'none', fontSize: '16px', lineHeight: '30px' }}
+    >
+      Nauro Conciencia
+    </a>  
+  </div>
             <p>- Tecnico en administración de empresas</p>
         </div>
         {/* <div className="colum-2">

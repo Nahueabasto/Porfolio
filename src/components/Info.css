@@ -60,9 +60,13 @@
     .contenedor-detallee {
       display: flex;
       flex-direction: column;
-      align-items: center; /* Esto centrará horizontalmente */
       grid-gap: 30px;
       
+    }
+    .colum-2 {
+      text-align: left;
+      padding-left: 0%; /* Ajusta el valor según sea necesario */
+      padding-right: 0%;
     }
 
 }

@@ -14,18 +14,13 @@
     grid-gap: 40px;
   }
 
-  .right{
-    margin-left: 20px;
-    font-family: 'Poppins', sans-serif;
-  }
-  
   .left {
     display: flex;
     flex-direction: column; 
     align-items: center; 
     align-items: flex-start;
     text-align: center;
-    margin-left: 20px;
+    
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
     padding-left: 35%; /* Ajusta el valor según sea necesario */
@@ -51,11 +46,14 @@
   }
   
   .right {
+    /* margin-left: 20px; */
     height: 100%;
     max-width: 100%;
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    padding-left: 5%; /* Ajusta el valor según sea necesario */
+    padding-right: 5%;
   }
   
   h4 {
@@ -77,4 +75,8 @@
       grid-template-columns: 1fr;
       grid-gap: 0px;
     }
+    .left {
+      padding-left: 5%; /* Ajusta el valor según sea necesario */
+       /* Ajusta el valor según sea necesario */
+    } 
   }
