@@ -28,6 +28,9 @@
     margin-left: 20px;
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
+    padding-left: 35%; /* Ajusta el valor según sea necesario */
+    padding-right: 35%; /* Ajusta el valor según sea necesario */
+    box-sizing: border-box;
   } 
 
   .icons {
