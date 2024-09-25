@@ -3,6 +3,7 @@
     padding: 1rem 0;
     background-color: #333333;
   }
+
   
   .footer-container {
     max-width: 1200px;
@@ -59,9 +60,9 @@
     font-size: 1.1rem;
   }
 
-  a:hover {
+  /* a:hover {
     color: #00ca22;
-  }
+  } */
   
   @media screen and (max-width: 505px) {
     .footer-container {

@@ -8,7 +8,7 @@ const Card = (props) => {
       <div className="project-card">
         <Link to={`/project/${props.id}`} style={{ textDecoration: "none" }}>
           <img src={props.imgsrc} alt="imagen" />
-          <h2 className="project-title">{props.title}</h2>
+          <h3 className="project-title">{props.title}</h3>
           <div className="pro-details">
             {/* <div>
               <button className="secondary-button">

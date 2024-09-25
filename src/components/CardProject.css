@@ -1,33 +1,38 @@
 .project-heading {
     text-align: center;
-    padding: 10rem 0 2rem 0;
+    padding: 8rem 0 1rem 0;
   }
   
-  .project-container {
+  /* .project-container {
     max-width: 1040px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 70px;
     padding-bottom: 5rem;
 
+  } */
+  .project-container {
+    max-width: 1100px;
+    margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px; /* Espacio entre tarjetas */
+    padding-bottom: 5rem;
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    text-align: center;
+    margin-top: 40px;
   }
   
   .project-card {
+    /*background: #e0dddd;*/
     background: #444;
-    padding: 1rem 1rem;
-    /* border: white solid 2px; */
     border-radius: 5px;
-    justify-content: center; /* Centrar las columnas horizontalmente */
-    text-align: center;
-    margin: 0 auto;
-    transition: opacity 0.3s; /* Add a smooth transition for the opacity change */
-    opacity: 1;
-    /* Add other styles as needed */
+    padding-bottom: 0%;
   }
   
   .project-card:hover {
-    /* Define the styles for the card when hovered over */
+  transform: translateY(-5px); /* Mueve la tarjeta hacia arriba 5px al pasar el mouse */
     opacity: 0.8; /* Reduce the opacity to make it appear transparent */
     /* You can also change other styles like background color on hover */
   }
@@ -41,6 +46,10 @@
     padding: 1rem 0;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif; /* Aquí aplicas la nueva fuente al título */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+    font-weight: 700;  /* Negrita */
+    letter-spacing: 1px; /* Espaciado entre letras */
   }
   
   .pro-details p {
@@ -64,6 +73,14 @@
     height: 15vh;
     position: relative;
     background-color: darkslateblue;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .project-container {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
   }
   
   @media screen and (max-width: 740px) {
