@@ -7,10 +7,12 @@
     grid-gap: 40px; /* Espacio entre tarjetas */
     justify-content: center; /* Centrar las columnas horizontalmente */
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .titleee{
     text-align: left; 
+    font-family: 'Poppins', sans-serif;
 }
 
 .contenedor-detalleg {

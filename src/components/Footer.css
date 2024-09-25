@@ -2,6 +2,7 @@
     width: 100%;
     padding: 1rem 0;
     background-color: #333333;
+    font-family: 'Poppins', sans-serif;
   }
 
   
@@ -15,6 +16,7 @@
 
   .right{
     margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
   }
   
   .left {
@@ -25,6 +27,7 @@
     text-align: center;
     margin-left: 20px;
     padding: 1rem;
+    font-family: 'Poppins', sans-serif;
   } 
 
   .icons {
@@ -41,6 +44,7 @@
   
   .location p {
     line-height: 30px;
+    
   }
   
   .right {
@@ -54,10 +58,11 @@
   h4 {
     font-size: 1.1rem;
     padding-bottom: 0.7rem;
+    font-family: 'Poppins', sans-serif;
   }
   
   p {
-    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
   }
 
   /* a:hover {

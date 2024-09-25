@@ -11,16 +11,24 @@
     grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
     grid-gap: 100px; /* Espacio entre las columnas */
     margin-bottom: -100px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
   }
 
   .colum-1 {
     text-align: left;
     
   }
+  
 
   .colum-2 {
     text-align: left;
-    
+    padding-left: 20%; /* Ajusta el valor según sea necesario */
+    padding-right: 20%; /* Ajusta el valor según sea necesario */
+    box-sizing: border-box; 
   }
 
   .colum-1 h2 {
