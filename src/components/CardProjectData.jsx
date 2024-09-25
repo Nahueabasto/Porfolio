@@ -52,7 +52,7 @@ const CardProjectData = [
   {
     id: 5,
     imgsrc: pastas,
-    title: "News Argentina",
+    title: "Pastas Frescas Ali-Mi",
     text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
     git: "https://github.com/Nahueabasto/Economia",
     video: videoEconomia,
