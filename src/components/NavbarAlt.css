@@ -17,37 +17,11 @@ h1{
   font-family: 'Poppins', sans-serif;
 }
 
-/* .heade-bg {
-    background-color: #d6d2d2;
-    transition: 0.5s;
-  } */
 
-  /* .logo-h1 {
-    display: flex;
-    align-items: center; 
-    gap: 5px; 
-    margin-left: 10%;
-  } */
-
-  .text-nav:hover {
+.text-nav:hover {
     color:#f07807; /* Cambia el color del texto a naranja en el estado de hover */
   }
 
-/* .logoeco{
-    padding: 10px;
-    flex: 1;
-    border-radius: 50%;
-    max-width: 100%;
-    
-} */
-
-/* .text-nav{
-  text-decoration: none; 
-    align-items: center;
-    font-size: 30px;
-    color: #FFFFFF;
-    
-} */
 
 .na-menu {
     display: flex;

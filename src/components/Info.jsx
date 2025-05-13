@@ -27,12 +27,12 @@ const Info = () => {
       <YouTubeIcon size={24} style={{ color: '#FF0000' }} /> {/* Ajusta el tamaño aquí si es necesario */}
     </div>
     <a 
-      href="https://www.youtube.com/@Neuro.Conciencia" 
+      href="https://www.youtube.com/@MenteIlimitadaok" 
       target="_blank" 
       rel="noopener noreferrer" 
       style={{ color: '#00aaff', textDecoration: 'none', fontSize: '16px', lineHeight: '30px' }}
     >
-      Nauro Conciencia
+      Mente Ilimitada
     </a>  
   </div>
             <p>- Tecnico en administración de empresas</p>

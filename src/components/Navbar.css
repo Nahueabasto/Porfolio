@@ -54,7 +54,6 @@
       left: -100%;
       z-index: -3;
       transition: 0.3s;
-      
     }
   
     .nav-menu.active {
@@ -62,9 +61,7 @@
     }
   
     .nav-menu li {
-      /* padding: 1rem 0;
-      font-size: 2rem; */
-      padding: 0.5rem 0;
+  padding: 0.5rem 0;
   font-size: 2rem;
   margin-left: auto;
   margin-right: 30px;
