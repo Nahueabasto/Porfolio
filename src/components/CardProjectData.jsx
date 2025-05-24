@@ -1,7 +1,7 @@
 import eco from "../img/eco.png";
 import noticias from "../img/noticias.png";
 import polleria from "../img/polleria.png";
-import nes from "../img/nes.png";
+import nes from "../img/pipa.png";
 import pastas from "../img/p.png";
 import tres from "../img/3.png";
 
@@ -50,11 +50,11 @@ const CardProjectData = [
   {
     id: 5,
     imgsrc: nes,
-    title: "News Argentina",
+    title: "Pipa3D",
     text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
     git: "https://github.com/Nahueabasto/Economia",
     video: "",
-    deploy: "https://digital4.vercel.app/",
+    deploy: "https://pipa3d.vercel.app/",
     technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
   },
   {
@@ -64,7 +64,7 @@ const CardProjectData = [
     text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
     git: "https://github.com/Nahueabasto/Economia",
     video: "",
-    deploy: "https://listadepreciosali-mi-nahueabastos-projects.vercel.app/",
+    deploy: "https://ali-mi.vercel.app/",
     technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
   },
 ];
